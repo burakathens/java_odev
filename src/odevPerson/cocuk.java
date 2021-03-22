@@ -24,6 +24,10 @@ public cocuk(){
         this.yas = yas;
     }
 
+    public void setOgrenciMi(boolean ogrenciMi) {
+        this.ogrenciMi = ogrenciMi;
+    }
+
     @Override
     public String toString() {
         return "cocuk{" +

@@ -8,7 +8,7 @@ public class person {
     public String p_soyisim;
     private int id_no;
     public cocuk cocuk1=new cocuk();
-  //  public araba araba1=new araba();
+
     public List<araba> arabas=new ArrayList<>();
 
     public person(){
@@ -41,9 +41,7 @@ public class person {
     public void setArabas(List<araba> arabas) {
         this.arabas = arabas;
     }
-  //  public void arabaEkle(person person,araba araba){
-  //      person.arabas.add(araba);
- //}
+
 
     @Override
     public String toString() {
